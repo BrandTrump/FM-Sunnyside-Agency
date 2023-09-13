@@ -24,7 +24,7 @@ function Navbar() {
               <Link href={"/"} className="font-barlow">
                 Projects
               </Link>
-              <button className="bg-white py-3 px-6 rounded-full text-black font-fraunces uppercase font-bold text-xs">
+              <button className="bg-white py-3 px-6 rounded-full text-black font-fraunces uppercase font-bold text-xs hover:text-white hover:bg-[#a5d6ee]/80 transition-colors duration-200">
                 Contact
               </button>
             </div>
