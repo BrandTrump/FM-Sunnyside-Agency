@@ -15,13 +15,22 @@ function Navbar() {
           <nav>
             <Bars3Icon className="h-8 w-8 text-white lg:hidden" />
             <div className="hidden lg:flex lg:items-center gap-8 text-white">
-              <Link href={"/"} className="font-barlow">
+              <Link
+                href={"/"}
+                className="font-barlow hover:text-[#a5d6ee]/80 transition-colors duration-200"
+              >
                 About
               </Link>
-              <Link href={"/"} className="font-barlow">
+              <Link
+                href={"/"}
+                className="font-barlow hover:text-[#a5d6ee]/80 transition-colors duration-200"
+              >
                 Services
               </Link>
-              <Link href={"/"} className="font-barlow">
+              <Link
+                href={"/"}
+                className="font-barlow hover:text-[#a5d6ee]/80 transition-colors duration-200"
+              >
                 Projects
               </Link>
               <button className="bg-white py-3 px-6 rounded-full text-black font-fraunces uppercase font-bold text-xs hover:text-white hover:bg-[#a5d6ee]/80 transition-colors duration-200">

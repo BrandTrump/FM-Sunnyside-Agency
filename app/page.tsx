@@ -15,13 +15,13 @@ export default function Home() {
       </section>
 
       <section className="w-full">
-        <article className="flex flex-col-reverse md:flex-row items-center md:max-h-[60em]">
+        <article className="flex flex-col-reverse md:flex-row items-center">
           <div className="w-full">
-            <div className="px-10 py-20 md:p-8 flex flex-col gap-4 text-center md:text-start">
-              <h1 className="font-extrabold font-fraunces text-3xl md:text-4xl">
+            <div className="px-10 py-20 md:p-4 lg:p-8 flex flex-col gap-4 xl:p-32 text-center md:text-start">
+              <h1 className="font-extrabold font-fraunces text-3xl md:text-4xl xl:text-5xl">
                 Transform your brand
               </h1>
-              <p className="font-barlow text-gray-500">
+              <p className="font-barlow text-gray-500 xl:text-lg">
                 We are a full-service creative agency specializing in helping
                 brands grow fast. Engage your clients through compelling visuals
                 that do most of the marketing for you.
@@ -34,16 +34,16 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="w-full h-[23em] md:h-[38em] md:max-h-[60em] bg-egg-mobile md:bg-egg-desktop bg-cover bg-center"></div>
+          <div className="w-full aspect-square bg-egg-mobile md:bg-egg-desktop bg-cover bg-center -z-30 overflow-y-hidden"></div>
         </article>
 
         <article className="flex flex-col-reverse md:flex-row-reverse items-center">
           <div className="w-full">
-            <div className="px-10 py-20 md:p-8 flex flex-col gap-4 text-center md:text-start">
-              <h1 className="font-extrabold font-fraunces text-3xl md:text-4xl">
+            <div className="px-10 py-20 md:p-4 lg:p-8 flex flex-col gap-4 xl:p-32 text-center md:text-start">
+              <h1 className="font-extrabold font-fraunces text-3xl md:text-4xl xl:text-5xl">
                 Stand out to the right audience
               </h1>
-              <p className="font-barlow text-gray-500">
+              <p className="font-barlow text-gray-500 xl:text-lg">
                 Using a collaborative formula of designers, researchers,
                 photographers, videographers, and copywriters, we’ll build and
                 extend your brand in digital places.
@@ -57,28 +57,28 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full h-[23em] md:h-[38em] md:max-h-[60em] bg-stand-out-mobile md:bg-stand-out-desktop bg-cover bg-center"></div>
+          <div className="w-full aspect-square bg-stand-out-mobile md:bg-stand-out-desktop bg-cover bg-center"></div>
         </article>
 
         <article className="flex flex-col md:flex-row text-black/50 w-full">
-          <div className="relative w-full h-[30em] md:h-[38em] bg-center bg-cover bg-no-repeat bg-cherry-mobile md:bg-cherry-desktop">
-            <div className="absolute flex flex-col top-[60%] justify-start items-center text-center px-10 lg:px-32 gap-8">
-              <h1 className="font-extrabold font-fraunces text-3xl md:text-3xl">
+          <div className="relative w-full aspect-square bg-center bg-cover bg-no-repeat bg-cherry-mobile md:bg-cherry-desktop">
+            <div className="absolute flex flex-col top-[55%] 2xl:top-[60%] justify-start items-center text-center px-10 lg:px-2 xl:px-32 gap-8">
+              <h1 className="font-extrabold font-fraunces text-3xl md:text-3xl 2xl:text-5xl">
                 Graphic Design
               </h1>
-              <p className="font-barlow text-sm md:text-lg">
+              <p className="font-barlow text-sm lg:text-lg 2xl:text-xl">
                 Great design makes you memorable. We deliver artwork that
                 underscores your brand message and captures potential clients’
                 attention.
               </p>
             </div>
           </div>
-          <div className="relative w-full h-[30em] md:h-[38em] bg-center bg-cover bg-no-repeat bg-orange-mobile md:bg-orange-desktop">
-            <div className="absolute flex flex-col top-[60%] justify-start items-center text-center px-10 lg:px-32 gap-8">
-              <h1 className="font-extrabold font-fraunces text-3xl md:text-3xl">
+          <div className="relative w-full aspect-square bg-center bg-cover bg-no-repeat bg-orange-mobile md:bg-orange-desktop">
+            <div className="absolute flex flex-col top-[55%] 2xl:top-[60%] justify-start items-center text-center px-10 lg:px-2 xl:px-32 gap-8">
+              <h1 className="font-extrabold font-fraunces text-3xl md:text-3xl 2xl:text-5xl">
                 Photography
               </h1>
-              <p className="font-barlow text-sm md:text-lg">
+              <p className="font-barlow text-sm lg:text-lg 2xl:text-xl">
                 Increase your credibility by getting the most stunning,
                 high-quality photos that improve your business image.
               </p>
@@ -87,7 +87,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section>
+      <section className="my-14">
         <Wrapper>
           <h1 className="text-center font-bold font-fraunces uppercase text-gray-400 mt-12 md:mt-20 text-lg md:text-xl tracking-widest">
             Client Testimonials
@@ -176,23 +176,23 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col w-full md:flex-row">
-        <div className="flex h-[13em] md:h-[28em] md:flex-grow">
-          <div className="w-full bg-milkbottles-desktop bg-cover bg-center"></div>
-          <div className="w-full bg-gallery-orange-desktop bg-cover bg-center"></div>
+        <div className="flex md:flex-grow">
+          <div className="w-full aspect-square md:aspect-[4/5]  bg-milkbottles-desktop bg-cover bg-center"></div>
+          <div className="w-full  aspect-square md:aspect-[4/5] bg-gallery-orange-desktop bg-cover bg-center"></div>
         </div>
 
-        <div className="flex h-[13em] md:h-[28em] md:flex-grow">
-          <div className="w-full bg-cone-desktop bg-cover bg-center"></div>
-          <div className="w-full bg-sugar-desktop bg-cover bg-center"></div>
+        <div className="flex md:flex-grow">
+          <div className="w-full aspect-square md:aspect-[4/5] bg-cone-desktop bg-cover bg-center"></div>
+          <div className="w-full aspect-square md:aspect-[4/5] bg-sugar-desktop bg-cover bg-center"></div>
         </div>
       </section>
 
       <footer className="bg-[#90d4c5] text-black/50">
         <Wrapper>
-          <div className="mt-10 w-40 h-8 relative left-1/2 -translate-x-1/2">
+          <div className="mt-10 md:mt-16 w-40 h-8 relative left-1/2 -translate-x-1/2">
             <Image src={"/images/logo-footer.svg"} alt="logo" fill />
           </div>
-          <div className="mt-6 w-full flex items-center gap-8 justify-center text-[#488e7e] text-lg">
+          <div className="mt-6 w-full flex items-center gap-8 md:gap-16 justify-center text-[#488e7e] text-lg">
             <Link
               href={"/"}
               className="font-barlow hover:text-white transition-colors duration-200"
@@ -213,7 +213,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="my-12 flex justify-center items-center gap-4 fill-[#2c7466]">
+          <div className="my-12 md:my-20 flex justify-center items-center gap-4 fill-[#2c7466]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
