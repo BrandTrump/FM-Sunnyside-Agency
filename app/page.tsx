@@ -9,12 +9,15 @@ export default function Home() {
         <h1 className="font-fraunces font-extrabold uppercase text-4xl md:text-7xl tracking-widest text-white text-center z-30">
           We are creatives
         </h1>
-        <div className="relative h-32 w-10 md:h-24 md:w-8 animate-bounce">
+        <Link
+          href={"#Transform-Your-Brand"}
+          className="relative h-32 w-10 md:h-24 md:w-8 animate-bounce cursor-pointer"
+        >
           <Image src={"/images/icon-arrow-down.svg"} alt="arrow" fill />
-        </div>
+        </Link>
       </section>
 
-      <section className="w-full">
+      <section className="w-full" id="Transform-Your-Brand">
         <article className="flex flex-col-reverse md:flex-row items-center">
           <div className="w-full">
             <div className="px-10 py-20 md:p-4 lg:p-8 flex flex-col gap-4 xl:p-32 text-center md:text-start">
