@@ -5,7 +5,7 @@ import Wrapper from "./Wrapper";
 
 function Navbar() {
   return (
-    <div className="bg-[#3dbefd]">
+    <div className="bg-[#3dbefd] fixed top-0 w-full z-50">
       <Wrapper>
         <header className="flex items-center justify-between">
           <div className="w-40 h-8 relative">

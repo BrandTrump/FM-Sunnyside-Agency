@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <section className="flex pt-24 pb-52 md:pt-24 md:pb-52 flex-col items-center gap-32 md:gap-28 bg-header-mobile bg-cover bg-center 2xl:h-[80vh] md:bg-header-desktop">
+      <section className="flex pt-24 pb-52 md:pt-32 md:pb-52 flex-col items-center gap-32 md:gap-28 bg-header-mobile bg-cover bg-center 2xl:h-[80vh] md:bg-header-desktop">
         <h1 className="font-fraunces font-extrabold uppercase text-4xl md:text-7xl tracking-widest text-white text-center z-30">
           We are creatives
         </h1>
